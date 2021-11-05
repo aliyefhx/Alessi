@@ -32,7 +32,7 @@ Sahibim🧑‍💻 - [Aliyefh] (https://t.me/aliyefh_sos)
  
 �0�3lav�0�5 m�0�5lumat almaq ���0�4��n /help se�0�4in.
 
- M�0�5ni qrupa �0�5lav�0�5 etm�0�5k ���0�4��n [�7�3BURA](http://t.me/NezrinRobot?startgroup=true) toxunun.
+ M�0�5ni qrupa �0�5lav�0�5 etm�0�5k ���0�4��n [�7�3BURA](http://t.me/AlessiRobot?startgroup=true) toxunun.
 """
 
 
