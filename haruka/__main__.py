@@ -20,19 +20,19 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Salam {}, m0¬5nim ad03m {}!
+PM_START = """Salam {}, mï¿½0ï¿½5nim adï¿½0ï¿½3m {}!
 
-M0¬5n sizin qrupunuzu t0¬5hl¨¹k0¬5siz 0”60¬5kild0¬5 qorumaq ¨¹0Š4¨¹n yarad03lm030”6am
+Mï¿½0ï¿½5n sizin qrupunuzu tï¿½0ï¿½5hlï¿½ï¿½kï¿½0ï¿½5siz ï¿½0ï¿½6ï¿½0ï¿½5kildï¿½0ï¿½5 qorumaq ï¿½ï¿½ï¿½0ï¿½4ï¿½ï¿½n yaradï¿½0ï¿½3lmï¿½0ï¿½3ï¿½0ï¿½6am
 
-M0¬5ni qrupa 0¬5lav0¬5 edib admin yetkisi verin
+Mï¿½0ï¿½5ni qrupa ï¿½0ï¿½5lavï¿½0ï¿½5 edib admin yetkisi verin
 
-Sahibim - [Aykhan ”9“6”9–1](https://t.me/aykhan_s)
+SahibimðŸ§‘â€ðŸ’» - [Aliyefh] (https://t.me/aliyefh_sos)
  
- Botda problem yaranarsa [7¼3Support Group](https://t.me/NezrinSupport) bildirin.
+ Botda problem yaranarsa [ï¿½7ï¿½3Support Group](https://t.me/AlessiSupport) bildirin.
  
-0™3lav0¬5 m0¬5lumat almaq ¨¹0Š4¨¹n /help se0Š4in.
+ï¿½0ï¿½3lavï¿½0ï¿½5 mï¿½0ï¿½5lumat almaq ï¿½ï¿½ï¿½0ï¿½4ï¿½ï¿½n /help seï¿½0ï¿½4in.
 
- M0¬5ni qrupa 0¬5lav0¬5 etm0¬5k ¨¹0Š4¨¹n [7¼3BURA](http://t.me/NezrinRobot?startgroup=true) toxunun.
+ Mï¿½0ï¿½5ni qrupa ï¿½0ï¿½5lavï¿½0ï¿½5 etmï¿½0ï¿½5k ï¿½ï¿½ï¿½0ï¿½4ï¿½ï¿½n [ï¿½7ï¿½3BURA](http://t.me/NezrinRobot?startgroup=true) toxunun.
 """
 
 
@@ -152,7 +152,7 @@ def send_start(bot, update):
 
     keyboard = [[InlineKeyboardButton(text="ðŸ‡®ðŸ‡³ Language", callback_data="set_lang_")]]
     keyboard += [[InlineKeyboardButton(text="ðŸ›  Reporting", callback_data="cntrl_panel_M"), 
-        InlineKeyboardButton(text="â„1¤7 Help", callback_data="help_back")]]
+        InlineKeyboardButton(text="â„1ï¿½7 Help", callback_data="help_back")]]
 
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
